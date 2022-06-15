@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+body {
+  background-color: #fafbff;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+
+.content .title {
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  color: #3734a9;
+  font-weight: 600;
+}
+
+table tbody {
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+
+label {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-control {
+  background-color:#F1F1F1 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-family: "Public Sans", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}

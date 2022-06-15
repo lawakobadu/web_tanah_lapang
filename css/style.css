@@ -1,0 +1,278 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.navbar-nav {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.nav-item{
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+
+.banner-image {
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    z-index : -1;
+    position : relative;
+    align-content: flex-start;
+    flex-direction : column;
+}
+    
+.banner-image::after{
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(55, 52, 169, 0.49);
+    z-index : -1;
+    display: flex;
+}
+
+.navbar-brand{
+    font-family: 'Manrope', sans-serif;
+    color: white;
+
+}
+
+.login-btn {
+    background-color: #FF7F5C;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+}
+
+.login-btn:hover {
+    background-color: white;
+    border:2px;
+    border-color : #FF7F5C;
+    border-radius: 47px;
+    color: #FF7F5C;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+.jdl {
+    font-family: 'Manrope', sans-serif;
+    color : white;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+.jdl-detail {
+    font-family: 'Manrope', sans-serif;
+    color : white;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    padding-top: 30px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+}
+
+.get-started-btn{
+    background-color: #FF7F5C;
+    border: none;
+    border-radius: 47px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    z-index:999999999999999999999999999999999999999;
+}
+
+.get-started-btn:hover{
+    background-color: white;
+    border:2px;
+    border-color : #FF7F5C;
+    border-radius: 47px;
+    color: #FF7F5C;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: flex;
+    font-size: 14px;
+    font-weight: 800;
+    z-index:9999999999999999999999999999999999999;
+}
+
+/* About */
+.jdl-profil-kelurahan{
+    font-weight: 800;
+    font-size: 18px;
+    color: #3734A9;
+    font-family: 'Manrope', sans-serif;
+}
+
+.jdl-pk-2{
+font-weight: 700;
+font-size: 50px;
+letter-spacing: -0.03em;
+font-family: 'Manrope', sans-serif;
+color: #000000;
+
+}
+
+.detail-pk{
+font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+letter-spacing: -0.02em;
+color: #757095;
+
+
+}
+
+.btn{
+    background: #3734A9;
+    border-radius: 7px;
+    color: white;
+    padding: 25px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+}
+
+.btn:hover{
+    background: white ;
+    border-radius: 7px;
+    border: 2px inset #3734A9; 
+    color: #3734A9;
+}
+
+/* data */
+.jdl-data1{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.jdl-data2{
+    font-family: 'Manrope', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.cont-data {
+    background: #3734A9;
+    
+}
+
+.isi-data{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.fa-user{
+    size: 10px;
+    color: #B1CA16;
+}
+
+.fa-star{
+    size: 10px;
+    color: #B1CA16;
+}
+
+#hiasan2{
+    object-position: 100% 10%;
+}
+
+.cont-org{
+    margin-bottom: 100px;
+    background: white;
+}
+
+.judul-org{
+    align-items: center;
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.jdl-org{
+    align-items: center;
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    color: #000000;
+}
+
+
+
+.link-org{
+    text-decoration: none;
+}
+
+.col-org:hover{
+    background-color:#3834a933 ;
+    border-radius: 20px;
+    color : white;
+}
+
+/* Recent Blog */
+.recent-blog{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #000000;
+}
+/* Recent Blog */
+
+/* footer */
+.footer-jdl{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+iframe{
+    width:100%;
+    height:300px;
+}
+/* end footer */
+
